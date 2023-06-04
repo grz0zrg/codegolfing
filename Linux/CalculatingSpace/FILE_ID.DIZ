@@ -1,0 +1,28 @@
+Calculating Space by The Orz
+
+256 bytes linux procedural graphics 
+for Outline demoparty 2021
+
+requirements:
+- 32 bits /dev/fb0 with supported resolution
+- framebuffer set to display resolution
+
+how to run:
+ - switch to console with Ctrl+Alt+F2 (Ctrl+Alt+F1 to switch back to X)
+ - check /dev/fb0 is writable to you (or launch with sudo to bypass this step)
+ - check /dev/fb0 current resolution with fbset tool
+ - run `clear`
+ - run the appropriate binary
+
+change graphical terminal resolution:
+ - check supported resolution with "vbeinfo" in GRUB command prompt
+ - "GRUB_GFXMODE=WxH" in /etc/default/grub (where W/H is a value)
+ - sudo update-grub
+
+Mixture of C (graphics code) and ASM (headers + init code). Now have much more room for C stuff with QuasiSpace improvements. The code without ELF headers is ~177 bytes and ~149 bytes without init. The party version has all data / code removed from the ELF header to comply with party rules.
+
+code by grz built with GCC v11
+
+greetings to all sizecoders
+
+12/05/2021

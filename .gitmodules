@@ -1,0 +1,9 @@
+[submodule "Linux/twigs"]
+	path = Linux/twigs
+	url = https://github.com/grz0zrg/twigs.git
+[submodule "Linux/Flagship"]
+	path = Linux/Flagship
+	url = https://github.com/grz0zrg/Flagship.git
+[submodule "Linux/TrueSpace"]
+	path = Linux/TrueSpace
+	url = https://github.com/grz0zrg/TrueSpace.git

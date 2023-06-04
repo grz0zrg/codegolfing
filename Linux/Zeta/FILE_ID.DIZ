@@ -1,0 +1,23 @@
+Zeta by The Orz
+
+64 bytes linux intro
+for Lovebyte 2022
+
+50 bytes of ELF headers, 64 bytes of graphics code (+ mmap)
+
+requirements:
+- 32 bits /dev/fb0 with supported resolution
+- framebuffer set to display resolution
+
+how to run:
+ - switch to console with Ctrl+Alt+F2 (Ctrl+Alt+F1 to switch back to X)
+ - check /dev/fb0 is writable to you (or launch with sudo to bypass this step)
+ - check /dev/fb0 current resolution with fbset tool
+ - run `clear`
+ - run the appropriate binary
+
+code by grz
+
+greetings to all sizecoders
+
+10/02/2022
