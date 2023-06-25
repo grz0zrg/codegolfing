@@ -24,6 +24,10 @@ There is some intros (Crimson, Zeta) where i don't remember them being done in a
 
 Source code is included in the cartridge.
 
+## RISC OS
+
+Stuff here works on RISC OS and Acorn hardware, archives contain sources, .adf and binaries for modern RISC OS and early Acorn hardware.
+
 ## Credits
 
 [sizecoding.org](http://www.sizecoding.org/wiki/Main_Page) and all sizecoders.
