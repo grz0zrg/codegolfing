@@ -16,7 +16,7 @@ All C intros are mostly based on my [tinycelfgraphics](https://github.com/grz0zr
 
 There is probably many size optimization lacking in some of them... things i found out much later, most optimized ones are the assembly ones anyway.
 
-The intros target 1920x1080 resolution but some of them may work with different framebuffer resolution, didn't test most of them with different resolution though.
+Most of them target 1920x1080 resolution but some of them may work with different framebuffer resolution, didn't test most of them with different resolution though.
 
 There is some intros (Crimson, Zeta) where i don't remember them being done in assembly at all (i also have C prototype for them) but they were released at the same time as Mmrnmhrm so the final version was probably assembly.
 
@@ -27,6 +27,10 @@ Source code is included in the cartridge.
 ## RISC OS
 
 Stuff here works on RISC OS and Acorn hardware, archives contain sources, .adf and binaries for modern RISC OS and early Acorn hardware.
+
+## DOS
+
+Stuff here works on DosBox or [Bochs](https://bochs.sourceforge.io/), see [this](https://www.onirom.fr/wiki/codegolf/dos/) to run them.
 
 ## Credits
 
