@@ -1,6 +1,6 @@
 # graphics codegolfing
 
-All my 64, 128, 256, 512 bytes sizecoding intros / procedural graphics with sources.
+All my 32, 64, 128, 256, 512 bytes sizecoding intros / procedural graphics with sources.
 
 Technical details for each of them : [link](https://www.onirom.fr/wiki/codegolf/main/)
 
@@ -18,15 +18,23 @@ There is probably many size optimization lacking in some of them... things i fou
 
 Most of them target 1920x1080 resolution but some of them may work with different framebuffer resolution, didn't test most of them with different resolution though.
 
-There is some intros (Crimson, Zeta) where i don't remember them being done in assembly at all (i also have C prototype for them) but they were released at the same time as Mmrnmhrm so the final version was probably assembly.
-
 ## TIC-80
 
 Source code is included in the cartridge.
 
 ## RISC OS
 
-Stuff here works on RISC OS and Acorn hardware, archives contain sources, .adf and binaries for modern RISC OS and early Acorn hardware.
+Stuff here works on RISC OS and Acorn hardware, archives contain sources (see .adf), .adf and binaries for modern RISC OS and early Acorn hardware.
+
+Some intros like ArchiSmall has hardcoded screen address so they require different binaries for different HW.
+
+## Dreamcast
+
+Tested in Redream but also works on real HW, see [this](https://www.onirom.fr/wiki/codegolf/dreamcast/) to build them.
+
+## Atari ST
+
+Tested in [Hatari](https://en.wikipedia.org/wiki/Hatari_(emulator)).
 
 ## DOS
 
